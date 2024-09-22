@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Image from "./layer/Image";
+import Image01 from "../assets/Image01.png"
 
 const Banner = () => {
   let [active, setActive] = useState(0);
@@ -119,7 +120,7 @@ const Banner = () => {
           <Image
             className="w-full"
             href="/"
-            src="../src/assets/Image01.png"
+            src={Image01}
             alt="../src/assets/Image01.png"
           />
         </div>
@@ -127,7 +128,7 @@ const Banner = () => {
           <Image
             className="w-full"
             href="/"
-            src="../src/assets/Image01.png"
+            src={Image01}
             alt="../src/assets/Image01.png"
           />
         </div>
@@ -135,7 +136,7 @@ const Banner = () => {
           <Image
             className="w-full"
             href="/"
-            src="../src/assets/Image01.png"
+            src={Image01}
             alt="../src/assets/Image01.png"
           />
         </div>
@@ -143,7 +144,7 @@ const Banner = () => {
           <Image
             className="w-full"
             href="/"
-            src="../src/assets/Image01.png"
+            src={Image01}
             alt="../src/assets/Image01.png"
           />
         </div>

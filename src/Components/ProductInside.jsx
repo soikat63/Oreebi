@@ -4,6 +4,7 @@ import Breadcrumb from "./layer/Breadcrumb";
 import Tittle from "./layer/Tittle";
 import ButtonS from "./layer/ButtonS";
 import Input from "./layer/Input";
+import PI01 from "../assets/PI01.png"
 
 const ProductInside = () => {
   return (
@@ -14,7 +15,7 @@ const ProductInside = () => {
           <div className="max-w-[560px] h-[600px]  border  ">
             <img
               className="w-full h-full object-cover "
-              src="src/assets/PI01.png"
+              src={PI01}
               alt=""
             />
           </div>

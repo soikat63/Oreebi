@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Image from "../Components/layer/Image";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 // import { FaLinkedinIn } from "react-icons/fa";
+import footerlogo from "../assets/footerlogo.png"
 
 const Footer = () => {
   return (
@@ -131,7 +132,7 @@ const Footer = () => {
           <div className="logo pl-5 lg:pl-0">
             <Image
               href="/"
-              src="../src/assets/footerlogo.png"
+              src={footerlogo}
               alt="../src/assets/footerlogo.png"
             />
           </div>

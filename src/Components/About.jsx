@@ -4,6 +4,9 @@ import Breadcrumb from "./layer/Breadcrumb";
 import Tittle from "./layer/Tittle";
 import Image from "./layer/Image";
 import ButtonS from "./layer/ButtonS";
+import PI01 from "../assets/PI01.png"
+import PI02 from "../assets/PI02.png"
+
 const About = () => {
   return (
     <div className="px-5 lg:px-0 lg:mt-[124px] mt-6">
@@ -14,7 +17,7 @@ const About = () => {
           <div className=" lg:w-[780px] w-[160px]  lg:h-[776px] h-auto bg-black relative">
             <Image
               className=" w-full h-full "
-              src="./src/assets/PI01.png"
+              src={PI01}
               alt="./src/assets/BS01.png"
             ></Image>
             <ButtonS className="absolute lg:bottom-[62px] bottom-2 left-[50%] -translate-x-[50%] lg:w-[281px] w-[120px] lg:h-[76px] h-auto lg:text-base text-sm lg:font-bold font-DM ">
@@ -24,7 +27,7 @@ const About = () => {
           <div className=" lg:w-[780px] w-[160px]  lg:h-[776px] h-auto bg-black relative">
             <Image
               className=" w-full h-full "
-              src="./src/assets/PI02.png"
+              src={PI02}
               alt="./src/assets/BS01.png"
             ></Image>
             <ButtonS className="absolute lg:bottom-[62px] bottom-2 left-[50%] -translate-x-[50%] lg:w-[281px] w-[120px] lg:h-[76px] h-auto lg:text-base text-sm lg:font-bold font-DM ">

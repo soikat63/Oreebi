@@ -9,6 +9,7 @@ import Button from "./layer/Button";
 import ButtonS from "./layer/ButtonS";
 import { ImCross } from "react-icons/im";
 import { useEffect, useState } from "react";
+import Ad_1 from "../assets/Ad_1.png"
 
 const SearchBar = () => {
   
@@ -146,7 +147,7 @@ let accounticon =() =>{
                     <div className="img w-20 h-auto bg-slate-200">
                       <img
                         className="w-full object-cover"
-                        src="src/assets/Ad_1.png"
+                        src={Ad_1}
                         alt=""
                       />
                     </div>
